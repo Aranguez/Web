@@ -1,0 +1,220 @@
+*
+    font-family: 'Poppins', sans-serif
+    box-sizing: border-box
+
+/* _________________________ NAV ___________________________ */
+
+header
+    //background-color: rgba(#2b2d42, 0.08)
+    position: relative
+    z-index: 3
+    padding-top: 60px
+    width: 100%
+    height: 10vh
+    nav
+        display: flex
+        align-items: center
+        justify-content: space-between
+        margin-bottom: 30px
+        .logo
+            font-size: 2em
+            font-family: 'Poppins', sans-serif
+            color: #FFC914
+            font-weight: 700
+            transition: all .3s ease
+            &:hover
+                text-decoration: none
+                color: #FFC914
+        img
+            width: 150px
+            height: 55px
+        .enlaces
+            a
+                font-family: 'Poppins', 'Roboto', sans-serif
+                margin-left: 80px
+                color: #fff
+                font-weight: 700
+                font-size: .9em
+                &:hover
+                    text-decoration: none
+                    color: #fff
+        a.active
+            padding-top: 31px
+            border-top: 8px solid #ff4463
+
+/* _________________________ HOME ___________________________ */
+
+#diseños
+    > img
+        width: 475px
+        position: absolute
+        z-index: 0
+
+section
+    display: block
+    padding-bottom: 150px
+    background-color: #2431ad
+
+section.logo
+    height: 80vh
+    padding: 0
+    i.fa-spinner
+        position: absolute
+        top: 325px
+        left: 100px
+        color: #fff
+        font-size: 4em
+    video
+        position: absolute
+        z-index: 1
+        opacity: .2
+        width: 100%
+
+.tit-principal
+    display: block
+    float: left
+    color: #fff
+    font-size: 4.5em
+    font-weight: 700
+
+.box
+    position: relative
+    z-index: 2
+    padding: 100px 0
+    width: 80%
+    height: auto
+    margin: 0 auto
+    box-shadow: 0 30px 70px rgba(27, 38, 140, 1)
+    background-color: #fff
+    .etiqueta
+        position: absolute
+        z-index: 2
+        width: 150px
+        padding: 20px
+        text-align: center
+    .etiqueta.top-left
+        left: 80px
+        top: -35px
+    .etiqueta.top-left.yellow
+        background-color: #FFC914
+    .box-ico
+        display: flex
+        align-items: center
+        justify-content: center
+        position: absolute
+        top: 40%
+        left: -40px
+        z-index: 3
+        width: 80px
+        height: 80px
+        border: 5px solid #ffffff
+        border-radius: 50%
+        background-color: #FFC914
+        transition: all .3s ease
+        &:hover
+            background-color: #ffb614
+        i
+            font-size: 2.5em
+            color: #000
+
+.half-box
+    position: relative
+    padding: 78px
+    width: 59%
+    height: auto
+    margin: 0 auto
+    box-shadow: 0 30px 70px rgba(27, 38, 140, 1)
+    background-color: #fff
+
+
+.no-padding
+    padding: 0 0 0 0 !important
+
+.si-padding
+    padding: 0 15px 0 15px !important
+
+/*.web-cam
+    width: 100%
+    overflow: hidden
+    position: relative
+    video
+        width: auto
+        height: 550px
+
+/*.web-cam2
+    width: 100%
+    overflow: hidden
+    position: relative
+    top: -200px
+    height: 300px
+    video
+        width: 100%
+
+
+
+
+/* _________________________ MODALS ___________________________ */
+
+.modal
+  text-align: center
+
+@media screen and (min-width: 768px)
+  .modal:before
+    display: inline-block
+    vertical-align: middle
+    content: " "
+    height: 100%
+
+.modal-dialog
+  display: inline-block
+  text-align: left
+  vertical-align: middle
+
+.modal-close
+    z-index: 2
+    position: absolute
+    top: 1rem
+    right: 1rem
+
+.modal-logo
+    text-align: center
+    padding: 40px 0
+
+.modal-logo i
+    display: block
+    font-size: 5em
+    color: #ff004c
+    margin-bottom: 10px
+
+.modal-logo span
+    display: block
+    font-size: 2em
+    font-weight: 700
+    color: #000
+
+/* _________________________ FOOTER ___________________________ */
+
+footer
+    width: 100%
+    background-color: #1b268c
+    padding: 55px 0
+    float: left
+    .logo
+        font-size: 2em
+        font-family: 'Poppins', sans-serif
+        color: #FFC914
+        font-weight: 700
+        transition: all .3s ease
+        &:hover
+            color: #FFC914
+            text-decoration: none
+    .enlaces
+        float: right
+        a
+            font-family: 'Poppins', 'Roboto', sans-serif
+            margin-left: 30px
+            color: #fff
+            font-size: 2em
+            &:hover
+                text-decoration: none
+                color: #fff

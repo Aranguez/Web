@@ -1,0 +1,47 @@
+<div class="modal fade" id="loginModal" tabindex="-1" role="dialog">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-body">
+          <button type="button" class="close modal-close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+          <div class="row">
+            <div class="col-12">
+                <div class="modal-logo">
+                    <!--i class="fab fa-accusoft"></i-->
+                    <h3><b>LEANDRO ARANGUEZ</b></h3>
+                </div>
+            </div>
+          </div>
+          <div class="row">
+              <div class="col-8 offset-sm-2">
+                  <form action="/login" method="post">
+                      <div class="form-group">
+                          <input type="text" name="username" placeholder="email" class="form-control">
+                          <%= mensaje %>
+                      </div>
+                      <div class="form-group">
+                          <input type="password" name="password" placeholder="Titulo" class="form-control">
+                      </div>
+                      <div class="form-group">
+                          <textarea name="name" class="form-control" placeholder="Mensaje"></textarea>
+                      </div>
+                      <hr>
+                      <div class="row">
+                          <div class="col-12">
+                              <button type="submit" class="btn btn-primary" name="button" style="width: 100%">Enviar</button>
+                          </div>
+                      </div>
+                  </form>
+
+              </div>
+          </div>
+
+      </div>
+      <!--div class="modal-footer">
+        <button type="button" class="btn btn-primary">Save changes</button>
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+    </div-->
+    </div>
+  </div>
+</div>
